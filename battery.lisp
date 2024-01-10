@@ -15,7 +15,7 @@
 (defvar *chargingp* nil)
 
 (defun notify (perc level)
-  (message "~A Battery Level: ~A" level perc))
+  (message "Battery ~A: Level - ~A" level perc))
 
 (defun update-info ()
   (when-let* ((battery-info (car (trivial-battery:battery-info)))
