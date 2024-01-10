@@ -18,7 +18,7 @@
   (message "~A Battery Level: ~A" level perc))
 
 (defun update-info ()
-  (when-let* ((battery-info (trivial-battery:battery-info))
+  (when-let* ((battery-info (car (trivial-battery:battery-info)))
               (percentage (assoc-value battery-info "percentage"
                                        :test #'string=)))
     (when-let ((notify-level (assoc-value *notify-levels* percentage))
