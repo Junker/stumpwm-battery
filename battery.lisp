@@ -7,7 +7,7 @@
   '((#\p  ml-percentage)
     (#\c  ml-charging)))
 
-(defparameter *check-interval* 30)
+(defparameter *check-interval* 15)
 (defparameter *notify-levels* '((15 . :critical)
                                 (30 . :warning)))
 

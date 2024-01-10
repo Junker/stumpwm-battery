@@ -34,7 +34,7 @@ git clone https://github.com/Junker/stumpwm-battery battery
 
 ### Parameters
 
-- `battery:*check-interval*` - Interval in seconds for battery check (Default: 30). 
+- `battery:*check-interval*` - Interval in seconds for battery check (Default: 15). 
 - `battery:*notify-levels*` - List of notification levels. Set it to NIL to disable notifications.
 - `battery:*percentage*` - Current battery percentage.
 - `battery:*chargingp*` - Current battery charging status.
