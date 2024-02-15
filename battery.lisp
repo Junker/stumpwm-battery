@@ -25,7 +25,7 @@
                (_ (< percentage (or *percentage* 0))))
       (notify percentage notify-level))
     (setf *percentage* percentage)
-    (setf *chargingp* (assoc-value battery-info "chargingp"
+    (setf *chargingp* (assoc-value battery-info "charging"
                                    :test #'string=))))
 
 (defun init ()
