@@ -2,6 +2,7 @@
 	(:use #:cl #:stumpwm #:alexandria)
   (:export #:*percentage*
            #:*chargingp*
+           #:*check-interval*
            #:init
            #:*notify-levels*
            #:modeline
