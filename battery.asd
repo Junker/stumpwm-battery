@@ -2,7 +2,7 @@
   :description "Battery information module for StumpWM"
   :author "Dmitrii Kosenkov"
   :license  "GPLv3"
-  :version "0.1.1"
+  :version "0.1.2"
   :serial t
   :depends-on (#:stumpwm #:trivial-battery)
   :components ((:file "package")
